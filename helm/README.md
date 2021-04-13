@@ -35,7 +35,7 @@ A Release is an instance of a chart running in a Kubernetes cluster. One chart c
 
 > Helm 3 has a client-only architecture with the client still called helm. As seen in the following diagram, it operates similar to the Helm 2 client, but the client interacts directly with the Kubernetes API server. The in-cluster server Tiller is now removed.
 
-![helm3-architecture](https://github.com/lerndevops/educka/blob/master/static/helm3-architecture.PNG)
+![helm3-architecture](https://github.com/lerndevops/static/blob/master/kube/helm3-architecture.PNG)
 
 
 ## Install Helm version3
@@ -53,7 +53,7 @@ v3.0.2+g19e47ee
 #### Common actions for Helm:
 
 ```
-- helm search:    search for charts
+- helm search:    search for charts (helm search hub awx)
 - helm pull:      download a chart to your local directory to view
 - helm install:   upload the chart to Kubernetes
 - helm list:      list releases of charts
